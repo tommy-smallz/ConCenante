@@ -1,0 +1,12 @@
+
+$B = "COV\"
+$A = Get-Content "C:\Users\Tommy\Desktop\testlist.txt" | ForEach-Object {$B + $_}
+
+
+
+
+ForEach ($C in $A){
+
+$B + $C
+
+}
